@@ -1,0 +1,12 @@
+# Python env
+env/
+.venv/
+
+# dbt
+logs/
+target/
+dbt_packages/
+
+# Secrets
+.env
+.env.*
