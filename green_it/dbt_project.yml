@@ -34,6 +34,12 @@ models:
     customer_bdd:
       +materialized: table
       +schema: dwh_customers
+    
+    dwh_silver:
+      +materialized: table
+      +schema: dwh_silver
+
+   
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
