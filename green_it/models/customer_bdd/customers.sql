@@ -14,7 +14,7 @@ SELECT
     "Phone Number" AS phone_number,
     "Group" AS is_group,
     "Number of Customers in Group" AS group_size
-FROM {{ref('greenit')}}
+FROM {{ref('snp_greenit')}}
 
 )
 

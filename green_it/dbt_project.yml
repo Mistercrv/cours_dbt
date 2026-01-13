@@ -35,9 +35,17 @@ models:
       +materialized: table
       +schema: dwh_customers
     
+    data_transform:
+      +materialized: table
+      +schema: dwh_bronze
+    
     dwh_silver:
       +materialized: table
       +schema: dwh_silver
+    
+    analytics:
+      +materialized: table
+      +schema: dwh_gold
 
    
     # Config indicated by + and applies to all files under models/example/

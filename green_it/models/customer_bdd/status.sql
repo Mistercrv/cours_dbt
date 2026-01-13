@@ -4,7 +4,7 @@ with status as (
         "Churn Label" AS churn_label,
         "Churn Category" AS churn_category,
         "Churn Reason" AS churn_reason
-    from {{ref ('greenit')}}
+    from {{ref ('snp_greenit')}}
 
 )
 

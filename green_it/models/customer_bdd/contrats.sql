@@ -17,7 +17,7 @@ with contrats as (
         "Customer Service Calls" AS customer_service_calls,
         "Monthly Charge" AS monthly_charge,
         "Total Charges" AS total_charges
-    FROM {{ref('greenit')}}
+    FROM {{ref('snp_greenit')}}
 
 )
 
